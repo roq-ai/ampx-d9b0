@@ -1,0 +1,2472 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "a23dbd34-0006-4dc1-a67d-02357d5997a2",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 94877,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T15:43:08.630Z",
+        "updated_at": "2023-09-22T20:32:14.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "135601e0-095b-4070-88e3-329b391e36c6",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 21011,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T18:23:41.218Z",
+        "updated_at": "2023-09-22T08:53:56.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bd490ca-0274-4dab-917c-5704d97850b0",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 26483,
+        "color": "Black",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-22T18:13:00.374Z",
+        "updated_at": "2023-09-22T21:38:06.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a92650d-5cdf-4984-ad65-3ed7e5fa1d93",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 59893,
+        "color": "White",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T22:54:12.638Z",
+        "updated_at": "2023-09-23T01:55:41.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3703f74-e19c-469a-83bc-1b99326330e1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 43776,
+        "color": "Silver",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T17:24:10.485Z",
+        "updated_at": "2023-09-22T20:02:50.088Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "91fab93d-49bc-41a9-9b7e-c1dc88483ba3",
+        "service_type": "Oil Change",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-22T17:31:13.875Z",
+        "updated_at": "2023-09-22T11:13:08.310Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "7bd490ca-0274-4dab-917c-5704d97850b0"
+      },
+      {
+        "id": "81bafe44-b73c-4e9c-a8bf-f3dc610c7abe",
+        "service_type": "Tire Rotation",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-23T01:31:43.143Z",
+        "updated_at": "2023-09-22T23:20:07.286Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "135601e0-095b-4070-88e3-329b391e36c6"
+      },
+      {
+        "id": "b0646ee4-6463-4b25-ada9-078141deeb6c",
+        "service_type": "Brake Repair",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-23T00:56:26.416Z",
+        "updated_at": "2023-09-22T17:52:49.656Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "e3703f74-e19c-469a-83bc-1b99326330e1"
+      },
+      {
+        "id": "b89f9029-141c-4262-9a7c-adb11c90f8ec",
+        "service_type": "Car Wash",
+        "location": "321 Maple Ave",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T18:34:38.174Z",
+        "updated_at": "2023-09-22T18:30:42.257Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "2a92650d-5cdf-4984-ad65-3ed7e5fa1d93"
+      },
+      {
+        "id": "c11003ae-8f82-412f-ae12-6bede3fc8979",
+        "service_type": "Battery Replacement",
+        "location": "654 Pine St",
+        "status": "On Hold",
+        "created_at": "2023-09-22T10:57:55.407Z",
+        "updated_at": "2023-09-22T21:31:14.527Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "2a92650d-5cdf-4984-ad65-3ed7e5fa1d93"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "26d328ab-994d-42e5-8397-e92b40d09679",
+        "start_time": "2023-09-22T11:11:17.053Z",
+        "end_time": "2023-09-22T23:36:04.069Z",
+        "created_at": "2023-09-22T22:18:05.328Z",
+        "updated_at": "2023-09-23T04:25:19.049Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "b0646ee4-6463-4b25-ada9-078141deeb6c"
+      },
+      {
+        "id": "63eea61b-4d9b-4f26-82ba-19e05ee64856",
+        "start_time": "2023-09-22T12:47:34.254Z",
+        "end_time": "2023-09-23T00:15:07.628Z",
+        "created_at": "2023-09-22T10:07:26.023Z",
+        "updated_at": "2023-09-22T06:27:59.549Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "81bafe44-b73c-4e9c-a8bf-f3dc610c7abe"
+      },
+      {
+        "id": "a4c10524-68f4-4df3-9f5c-00b5656570e4",
+        "start_time": "2023-09-22T19:54:29.949Z",
+        "end_time": "2023-09-22T17:35:06.250Z",
+        "created_at": "2023-09-23T04:52:41.103Z",
+        "updated_at": "2023-09-22T07:02:49.031Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "91fab93d-49bc-41a9-9b7e-c1dc88483ba3"
+      },
+      {
+        "id": "c13d4047-e697-4bfe-92fd-80626f82d2a0",
+        "start_time": "2023-09-22T12:44:54.831Z",
+        "end_time": "2023-09-22T15:17:34.984Z",
+        "created_at": "2023-09-22T12:17:54.041Z",
+        "updated_at": "2023-09-22T05:31:36.742Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "91fab93d-49bc-41a9-9b7e-c1dc88483ba3"
+      },
+      {
+        "id": "3671cf8a-2043-4cd7-b3f4-33a89a20a6be",
+        "start_time": "2023-09-22T16:37:54.236Z",
+        "end_time": "2023-09-22T18:32:24.734Z",
+        "created_at": "2023-09-22T20:04:03.974Z",
+        "updated_at": "2023-09-22T11:31:55.397Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "b89f9029-141c-4262-9a7c-adb11c90f8ec"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "00073ad1-1157-427d-841d-13ecd8f82d4b",
+        "emergency_type": "Accident",
+        "status": "Emergency",
+        "created_at": "2023-09-23T01:34:09.044Z",
+        "updated_at": "2023-09-22T11:49:26.563Z",
+        "service_request_id": "c11003ae-8f82-412f-ae12-6bede3fc8979"
+      },
+      {
+        "id": "8af4b97b-98ab-478f-ba24-19f3a34d4859",
+        "emergency_type": "Breakdown",
+        "status": "Urgent",
+        "created_at": "2023-09-22T23:04:28.597Z",
+        "updated_at": "2023-09-23T00:01:44.072Z",
+        "service_request_id": "b0646ee4-6463-4b25-ada9-078141deeb6c"
+      },
+      {
+        "id": "57e05e10-b6eb-4136-9c35-7f992b958713",
+        "emergency_type": "Flat Tire",
+        "status": "Critical",
+        "created_at": "2023-09-22T10:44:02.859Z",
+        "updated_at": "2023-09-22T16:06:11.552Z",
+        "service_request_id": "81bafe44-b73c-4e9c-a8bf-f3dc610c7abe"
+      },
+      {
+        "id": "8b1e1e5b-20d8-4d2f-af6d-b06e1d977c65",
+        "emergency_type": "Fuel Leak",
+        "status": "High Priority",
+        "created_at": "2023-09-22T05:53:31.378Z",
+        "updated_at": "2023-09-22T08:06:49.568Z",
+        "service_request_id": "91fab93d-49bc-41a9-9b7e-c1dc88483ba3"
+      },
+      {
+        "id": "d1a041a3-07ea-46e6-8937-895026bba868",
+        "emergency_type": "Overheating",
+        "status": "Immediate",
+        "created_at": "2023-09-22T19:45:14.803Z",
+        "updated_at": "2023-09-22T08:42:48.433Z",
+        "service_request_id": "c11003ae-8f82-412f-ae12-6bede3fc8979"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af396b4f-a1cd-45f0-a539-b6a98936c46a",
+        "email": "Barton35@roq.tech",
+        "firstName": "Rosamond",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/547.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "649ddf14-3deb-4624-9234-a553b35dce5e",
+        "email": "Werner_Ferry@roq.tech",
+        "firstName": "Casimir",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23b7ffa4-ae8b-4ccb-bd16-a448b53708c0",
+        "email": "Lambert.Hauck-Rodriguez@roq.tech",
+        "firstName": "Tyreek",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14121682",
+        "tenantId": null
+      },
+      {
+        "reference": "3f5d84f8-1e3e-404d-bd70-8d1ebc57b2d1",
+        "email": "Golda_Bernhard11@roq.tech",
+        "firstName": "Freda",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32074206",
+        "tenantId": null
+      },
+      {
+        "reference": "7c567ac5-60d4-4b14-8211-f84e12e17a84",
+        "email": "Crystel_Zboncak22@roq.tech",
+        "firstName": "Shanna",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10381787",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "ac0703bf-ce6a-4e00-88c6-34fafdfd91a5",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 66501,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T19:43:23.955Z",
+        "updated_at": "2023-09-23T00:14:10.056Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1586a91-0bc6-4e55-a2ca-aad414b65b89",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 29957,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-23T02:28:48.594Z",
+        "updated_at": "2023-09-23T03:38:58.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36af76bc-2626-4b3a-81e2-c5e37e1ce34a",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 43366,
+        "color": "Green",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-23T03:48:30.599Z",
+        "updated_at": "2023-09-23T02:48:32.279Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39691dc9-95a7-403e-8f84-f30164326e92",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 84990,
+        "color": "Black",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-23T03:12:20.154Z",
+        "updated_at": "2023-09-22T10:19:21.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fe7a23f-96cc-49fa-860b-18b4727f2c4c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 49366,
+        "color": "White",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-23T03:21:24.515Z",
+        "updated_at": "2023-09-22T20:02:35.644Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "5bba3789-c86b-4b71-b570-6ca2dbb7560e",
+        "service_type": "Plumbing",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-23T03:22:37.410Z",
+        "updated_at": "2023-09-22T15:39:13.943Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "36af76bc-2626-4b3a-81e2-c5e37e1ce34a"
+      },
+      {
+        "id": "a870f830-b815-4a55-9bb1-ad281816498a",
+        "service_type": "Electrical",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-22T12:45:25.796Z",
+        "updated_at": "2023-09-22T20:42:53.519Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "39691dc9-95a7-403e-8f84-f30164326e92"
+      },
+      {
+        "id": "d39a9aee-2fbd-4b51-90cb-984e36439a3b",
+        "service_type": "HVAC",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-22T06:38:43.230Z",
+        "updated_at": "2023-09-23T03:04:13.124Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "3fe7a23f-96cc-49fa-860b-18b4727f2c4c"
+      },
+      {
+        "id": "86d24cd0-1e80-4dde-891b-888debd88f70",
+        "service_type": "Carpentry",
+        "location": "012 Maple St",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T14:58:34.465Z",
+        "updated_at": "2023-09-22T18:35:22.570Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "39691dc9-95a7-403e-8f84-f30164326e92"
+      },
+      {
+        "id": "ff6bacec-178a-426c-b12c-a98d9b232290",
+        "service_type": "Painting",
+        "location": "345 Pine St",
+        "status": "On Hold",
+        "created_at": "2023-09-22T21:40:00.751Z",
+        "updated_at": "2023-09-22T12:19:11.075Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "3fe7a23f-96cc-49fa-860b-18b4727f2c4c"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "f1e7d150-5db4-4f19-b7be-beb23fb268f8",
+        "start_time": "2023-09-23T04:22:00.563Z",
+        "end_time": "2023-09-23T04:34:23.145Z",
+        "created_at": "2023-09-22T21:04:37.486Z",
+        "updated_at": "2023-09-23T03:51:55.112Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "a870f830-b815-4a55-9bb1-ad281816498a"
+      },
+      {
+        "id": "7363ac92-a627-4339-bb01-103682584bc2",
+        "start_time": "2023-09-22T18:37:48.379Z",
+        "end_time": "2023-09-22T23:58:57.417Z",
+        "created_at": "2023-09-22T15:27:25.185Z",
+        "updated_at": "2023-09-23T04:13:08.225Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "86d24cd0-1e80-4dde-891b-888debd88f70"
+      },
+      {
+        "id": "eafdaefe-58df-499d-8db5-3779787dcbf2",
+        "start_time": "2023-09-22T12:41:07.029Z",
+        "end_time": "2023-09-22T11:06:24.690Z",
+        "created_at": "2023-09-22T10:47:49.006Z",
+        "updated_at": "2023-09-22T13:56:19.062Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "ff6bacec-178a-426c-b12c-a98d9b232290"
+      },
+      {
+        "id": "0b9ea0b4-0452-4604-8ae6-417423a4cfe5",
+        "start_time": "2023-09-22T21:07:05.849Z",
+        "end_time": "2023-09-22T05:04:12.158Z",
+        "created_at": "2023-09-22T17:21:15.769Z",
+        "updated_at": "2023-09-23T03:30:42.084Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "ff6bacec-178a-426c-b12c-a98d9b232290"
+      },
+      {
+        "id": "30941f65-3d2d-4bb8-abbf-e640e2302793",
+        "start_time": "2023-09-23T03:41:16.913Z",
+        "end_time": "2023-09-22T18:52:36.638Z",
+        "created_at": "2023-09-22T17:11:18.379Z",
+        "updated_at": "2023-09-22T09:03:39.646Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "ff6bacec-178a-426c-b12c-a98d9b232290"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "9545de91-f142-4ad9-99ce-91785aa8aa16",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-23T04:31:42.756Z",
+        "updated_at": "2023-09-22T11:27:59.656Z",
+        "service_request_id": "86d24cd0-1e80-4dde-891b-888debd88f70"
+      },
+      {
+        "id": "62685f74-0abc-44e7-9eeb-ed16ab36d15b",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T11:38:44.021Z",
+        "updated_at": "2023-09-22T12:21:25.937Z",
+        "service_request_id": "d39a9aee-2fbd-4b51-90cb-984e36439a3b"
+      },
+      {
+        "id": "dc5d53c0-2572-4352-b391-4b33ca6aff41",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-22T22:14:28.710Z",
+        "updated_at": "2023-09-23T02:20:28.947Z",
+        "service_request_id": "d39a9aee-2fbd-4b51-90cb-984e36439a3b"
+      },
+      {
+        "id": "6310b246-e19e-4b12-a90f-2cd59bc61768",
+        "emergency_type": "Accident",
+        "status": "High Priority",
+        "created_at": "2023-09-22T19:19:35.345Z",
+        "updated_at": "2023-09-22T16:40:14.629Z",
+        "service_request_id": "5bba3789-c86b-4b71-b570-6ca2dbb7560e"
+      },
+      {
+        "id": "00aedbbd-d425-4664-9a7a-a3d949aec781",
+        "emergency_type": "Gas Leak",
+        "status": "Immediate",
+        "created_at": "2023-09-22T05:13:37.736Z",
+        "updated_at": "2023-09-22T12:17:09.410Z",
+        "service_request_id": "86d24cd0-1e80-4dde-891b-888debd88f70"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7639ad0c-e6e0-4feb-8ec1-b0a384b9a9f6",
+        "email": "Boris_Gislason36@roq.tech",
+        "firstName": "Allen",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "caee37cc-5c30-4cf1-b38f-f1d36cf71374",
+        "email": "Katrine_Bins@roq.tech",
+        "firstName": "Estelle",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5249959",
+        "tenantId": null
+      },
+      {
+        "reference": "4f2f1cae-18f9-4230-91a1-96626e0016bb",
+        "email": "Tania28@roq.tech",
+        "firstName": "Crystel",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55004903",
+        "tenantId": null
+      },
+      {
+        "reference": "51c7a9ee-49fa-47ad-8cee-4f83a5ebb132",
+        "email": "Alejandrin.Ernser84@roq.tech",
+        "firstName": "Irwin",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72150927",
+        "tenantId": null
+      },
+      {
+        "reference": "611a048b-3a97-41ea-9844-f2c38e3fadcf",
+        "email": "Milan.Hudson97@roq.tech",
+        "firstName": "Raymond",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/754.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "f85ab103-2993-44b6-abfb-22b992e91d2e",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 99006,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T19:13:50.535Z",
+        "updated_at": "2023-09-23T01:41:21.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c0587c5-f101-4b1c-a26b-f98f0f352104",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 38071,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-22T09:04:04.264Z",
+        "updated_at": "2023-09-22T11:06:23.401Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d33f465d-c920-4bb9-b562-8b27e6681b99",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 96841,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T17:23:09.253Z",
+        "updated_at": "2023-09-22T12:02:40.402Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4787f9ad-fa88-4c07-b9d8-d7fea1004774",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 74422,
+        "color": "White",
+        "license_plate": "GHI987",
+        "created_at": "2023-09-22T13:28:16.496Z",
+        "updated_at": "2023-09-22T15:36:14.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d45e8673-ffab-492f-8d55-3aeb39368249",
+        "make": "BMW",
+        "model": "X5",
+        "year": 3278,
+        "color": "Silver",
+        "license_plate": "JKL321",
+        "created_at": "2023-09-23T01:24:06.809Z",
+        "updated_at": "2023-09-22T22:04:09.493Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "80c9b251-55ad-4448-8013-a5f47ef262df",
+        "service_type": "Plumbing",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-22T11:47:32.894Z",
+        "updated_at": "2023-09-22T20:51:35.276Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "f85ab103-2993-44b6-abfb-22b992e91d2e"
+      },
+      {
+        "id": "9e41dc16-81d0-47bb-b4fb-44bc1017fc62",
+        "service_type": "Electrical",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-22T08:29:29.821Z",
+        "updated_at": "2023-09-22T06:43:54.355Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "d45e8673-ffab-492f-8d55-3aeb39368249"
+      },
+      {
+        "id": "2620b129-01da-4527-a5d1-30ebb0aa200c",
+        "service_type": "HVAC",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-22T08:31:57.223Z",
+        "updated_at": "2023-09-22T10:29:43.880Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4787f9ad-fa88-4c07-b9d8-d7fea1004774"
+      },
+      {
+        "id": "00057886-5e4b-4907-b433-006c729d0c0c",
+        "service_type": "Painting",
+        "location": "321 Maple Ave",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T23:49:44.303Z",
+        "updated_at": "2023-09-22T12:44:46.287Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "d45e8673-ffab-492f-8d55-3aeb39368249"
+      },
+      {
+        "id": "f0fea040-9e9a-453e-b0d7-02cb96619b96",
+        "service_type": "Carpentry",
+        "location": "654 Pine St",
+        "status": "On Hold",
+        "created_at": "2023-09-22T14:49:18.857Z",
+        "updated_at": "2023-09-22T13:55:52.579Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "f85ab103-2993-44b6-abfb-22b992e91d2e"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "69fd90b7-957b-4656-aedd-47b3460cc03c",
+        "start_time": "2023-09-23T03:04:04.657Z",
+        "end_time": "2023-09-22T17:03:29.251Z",
+        "created_at": "2023-09-22T10:22:13.850Z",
+        "updated_at": "2023-09-23T01:58:36.723Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "2620b129-01da-4527-a5d1-30ebb0aa200c"
+      },
+      {
+        "id": "1bc823c4-e6e4-4990-b4b6-8d81895427f6",
+        "start_time": "2023-09-22T10:32:39.219Z",
+        "end_time": "2023-09-22T18:03:09.821Z",
+        "created_at": "2023-09-22T08:05:14.959Z",
+        "updated_at": "2023-09-22T06:01:30.903Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "f0fea040-9e9a-453e-b0d7-02cb96619b96"
+      },
+      {
+        "id": "3ecd77f1-da7e-4d83-bccc-2cf774ddd0af",
+        "start_time": "2023-09-23T00:52:12.087Z",
+        "end_time": "2023-09-22T08:19:33.625Z",
+        "created_at": "2023-09-22T06:23:28.536Z",
+        "updated_at": "2023-09-22T09:33:10.138Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "f0fea040-9e9a-453e-b0d7-02cb96619b96"
+      },
+      {
+        "id": "d356f6e6-3716-4a09-98da-d752ecb69d2a",
+        "start_time": "2023-09-22T21:46:27.101Z",
+        "end_time": "2023-09-22T21:37:15.509Z",
+        "created_at": "2023-09-22T10:50:49.217Z",
+        "updated_at": "2023-09-22T07:59:19.645Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "2620b129-01da-4527-a5d1-30ebb0aa200c"
+      },
+      {
+        "id": "ff303ff8-efa8-438e-980e-901a58f11e2e",
+        "start_time": "2023-09-22T08:04:00.264Z",
+        "end_time": "2023-09-22T20:47:34.151Z",
+        "created_at": "2023-09-22T23:54:53.295Z",
+        "updated_at": "2023-09-23T02:14:00.266Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "00057886-5e4b-4907-b433-006c729d0c0c"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "5b802471-bcf6-4df6-ac83-e1254c3ea345",
+        "emergency_type": "Fire",
+        "status": "Active",
+        "created_at": "2023-09-22T07:27:20.640Z",
+        "updated_at": "2023-09-22T19:56:58.191Z",
+        "service_request_id": "9e41dc16-81d0-47bb-b4fb-44bc1017fc62"
+      },
+      {
+        "id": "834b6a2e-8a1c-4e3a-9af1-216246bb4080",
+        "emergency_type": "Medical",
+        "status": "Resolved",
+        "created_at": "2023-09-22T21:57:18.725Z",
+        "updated_at": "2023-09-22T07:36:38.202Z",
+        "service_request_id": "9e41dc16-81d0-47bb-b4fb-44bc1017fc62"
+      },
+      {
+        "id": "0bdc516c-3d80-4f6a-8bca-b5169936cb6a",
+        "emergency_type": "Natural Disaster",
+        "status": "Ongoing",
+        "created_at": "2023-09-23T03:33:22.798Z",
+        "updated_at": "2023-09-22T22:58:14.243Z",
+        "service_request_id": "00057886-5e4b-4907-b433-006c729d0c0c"
+      },
+      {
+        "id": "b3c64d4b-f552-49f9-8fd3-1bf865c189be",
+        "emergency_type": "Accident",
+        "status": "Closed",
+        "created_at": "2023-09-22T22:00:02.305Z",
+        "updated_at": "2023-09-22T06:34:12.296Z",
+        "service_request_id": "00057886-5e4b-4907-b433-006c729d0c0c"
+      },
+      {
+        "id": "cdb0bdd3-84c5-41e9-8fcf-4e65145bd3a3",
+        "emergency_type": "Security Threat",
+        "status": "Under Investigation",
+        "created_at": "2023-09-22T22:00:35.402Z",
+        "updated_at": "2023-09-23T01:29:29.792Z",
+        "service_request_id": "2620b129-01da-4527-a5d1-30ebb0aa200c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "adfbf4ec-a387-4525-ba61-2ccd63e18672",
+        "email": "Esteban.Schaden@roq.tech",
+        "firstName": "Emmanuelle",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/87.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fd042eb-1df0-4e99-bd71-388535d4f457",
+        "email": "Torrance_Durgan@roq.tech",
+        "firstName": "Odell",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0fbad6f-39e2-4e8e-8f8f-58707a10c07c",
+        "email": "August11@roq.tech",
+        "firstName": "Sallie",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20aded74-3b7e-44aa-bbf6-a66296f8fa36",
+        "email": "Letha_Jacobs6@roq.tech",
+        "firstName": "Elias",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43158660",
+        "tenantId": null
+      },
+      {
+        "reference": "64603d12-ad75-4811-b41a-fe85d2c232b3",
+        "email": "Jesse.Wiegand@roq.tech",
+        "firstName": "Elza",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14760252",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "96376ba2-e7e9-4565-8c2e-8ebbb0fee716",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 62168,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-23T00:11:08.256Z",
+        "updated_at": "2023-09-22T14:12:24.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd8ba4cf-3ba8-40b6-8946-f414c68b1e16",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 19823,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T08:55:51.565Z",
+        "updated_at": "2023-09-22T07:44:00.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11fcad31-154e-4d90-8a5d-7d5e870d311e",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 54942,
+        "color": "Green",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-23T03:43:07.838Z",
+        "updated_at": "2023-09-23T00:09:09.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a181281-f460-4cc6-88aa-71323e3cea74",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 37173,
+        "color": "Black",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T20:09:21.640Z",
+        "updated_at": "2023-09-22T06:15:00.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0f60a2f-10d2-4c48-9540-36d426db9650",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 77904,
+        "color": "White",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T16:44:10.431Z",
+        "updated_at": "2023-09-22T23:27:49.748Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "7b6ae8b9-1c80-4ed1-81a7-1f6c45bf0c5a",
+        "service_type": "Plumbing",
+        "location": "New York",
+        "status": "Pending",
+        "created_at": "2023-09-22T11:53:08.484Z",
+        "updated_at": "2023-09-23T04:29:37.360Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "fd8ba4cf-3ba8-40b6-8946-f414c68b1e16"
+      },
+      {
+        "id": "6f966965-0bc0-4780-9ad3-7128ca22ca05",
+        "service_type": "Electrical",
+        "location": "Los Angeles",
+        "status": "In Progress",
+        "created_at": "2023-09-23T01:25:40.842Z",
+        "updated_at": "2023-09-23T01:45:36.185Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "96376ba2-e7e9-4565-8c2e-8ebbb0fee716"
+      },
+      {
+        "id": "aefb7a29-7508-4465-a57e-c356ab6c4851",
+        "service_type": "HVAC",
+        "location": "Chicago",
+        "status": "Completed",
+        "created_at": "2023-09-22T18:09:15.178Z",
+        "updated_at": "2023-09-22T15:37:39.493Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "96376ba2-e7e9-4565-8c2e-8ebbb0fee716"
+      },
+      {
+        "id": "215965c7-e76c-4e33-b05c-2e99fec427ea",
+        "service_type": "Painting",
+        "location": "Houston",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T10:53:06.114Z",
+        "updated_at": "2023-09-23T04:38:39.663Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "96376ba2-e7e9-4565-8c2e-8ebbb0fee716"
+      },
+      {
+        "id": "bd707128-4ea4-4999-be86-30355148bf50",
+        "service_type": "Carpentry",
+        "location": "Miami",
+        "status": "On Hold",
+        "created_at": "2023-09-22T18:47:57.234Z",
+        "updated_at": "2023-09-22T19:45:40.204Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "fd8ba4cf-3ba8-40b6-8946-f414c68b1e16"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "ea4c75aa-1693-485f-8ceb-d1a831fe11fc",
+        "start_time": "2023-09-22T22:58:28.329Z",
+        "end_time": "2023-09-22T19:00:33.376Z",
+        "created_at": "2023-09-22T08:50:44.071Z",
+        "updated_at": "2023-09-22T14:00:07.547Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "215965c7-e76c-4e33-b05c-2e99fec427ea"
+      },
+      {
+        "id": "c16d647f-fb19-4a08-84d2-4a3753fa4a0d",
+        "start_time": "2023-09-23T04:14:14.735Z",
+        "end_time": "2023-09-23T00:54:27.591Z",
+        "created_at": "2023-09-22T21:49:44.817Z",
+        "updated_at": "2023-09-22T23:32:54.349Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "215965c7-e76c-4e33-b05c-2e99fec427ea"
+      },
+      {
+        "id": "a7a501da-5f23-42fc-ac0b-e0329a6e6590",
+        "start_time": "2023-09-22T21:53:03.254Z",
+        "end_time": "2023-09-22T23:30:24.257Z",
+        "created_at": "2023-09-23T04:58:32.091Z",
+        "updated_at": "2023-09-22T07:47:45.669Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "7b6ae8b9-1c80-4ed1-81a7-1f6c45bf0c5a"
+      },
+      {
+        "id": "d36170e7-2a2b-42f2-bcec-f28a35d3797f",
+        "start_time": "2023-09-22T06:24:57.328Z",
+        "end_time": "2023-09-23T01:17:26.075Z",
+        "created_at": "2023-09-22T14:26:59.980Z",
+        "updated_at": "2023-09-22T15:10:58.413Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "bd707128-4ea4-4999-be86-30355148bf50"
+      },
+      {
+        "id": "45b3a140-57ed-495a-8c81-d4618d3d0a97",
+        "start_time": "2023-09-22T06:41:37.403Z",
+        "end_time": "2023-09-22T08:37:07.426Z",
+        "created_at": "2023-09-22T06:39:41.157Z",
+        "updated_at": "2023-09-23T00:48:36.916Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "bd707128-4ea4-4999-be86-30355148bf50"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "c87443e6-4e7e-4851-8a37-5f6fa4288639",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T11:01:44.559Z",
+        "updated_at": "2023-09-22T05:21:31.933Z",
+        "service_request_id": "bd707128-4ea4-4999-be86-30355148bf50"
+      },
+      {
+        "id": "019c9ab4-fad3-4a4e-b7a7-fac6ceae93c7",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T07:13:51.328Z",
+        "updated_at": "2023-09-22T16:26:09.419Z",
+        "service_request_id": "6f966965-0bc0-4780-9ad3-7128ca22ca05"
+      },
+      {
+        "id": "64435e38-d08d-4c0d-a078-08d0846000db",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-23T00:25:37.575Z",
+        "updated_at": "2023-09-22T14:47:54.361Z",
+        "service_request_id": "7b6ae8b9-1c80-4ed1-81a7-1f6c45bf0c5a"
+      },
+      {
+        "id": "c1520177-4aaf-44fd-ba45-b4f0b5401cf5",
+        "emergency_type": "Accident",
+        "status": "High Priority",
+        "created_at": "2023-09-22T11:50:39.918Z",
+        "updated_at": "2023-09-22T17:12:52.756Z",
+        "service_request_id": "215965c7-e76c-4e33-b05c-2e99fec427ea"
+      },
+      {
+        "id": "d5c28718-7846-46b6-a6d2-95541c9288b7",
+        "emergency_type": "Crime",
+        "status": "Immediate",
+        "created_at": "2023-09-22T22:06:07.448Z",
+        "updated_at": "2023-09-22T10:45:26.715Z",
+        "service_request_id": "6f966965-0bc0-4780-9ad3-7128ca22ca05"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "abc35c60-0aa2-4c58-9925-b11d825aca29",
+        "email": "Franco_Schmitt@roq.tech",
+        "firstName": "Wilton",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32735594",
+        "tenantId": null
+      },
+      {
+        "reference": "ec734ff1-9eba-4dc4-9848-8dcbc99f57b8",
+        "email": "Candice.Prohaska38@roq.tech",
+        "firstName": "Amy",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1137d8f0-b344-4167-a71a-6f5e847a93db",
+        "email": "Theron56@roq.tech",
+        "firstName": "Dina",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c4cadb5-f8aa-444f-9b99-0db7525bac1d",
+        "email": "Esther_Bosco@roq.tech",
+        "firstName": "Dillon",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb55ce1c-646c-4ffe-9564-d2af39523c35",
+        "email": "Chet90@roq.tech",
+        "firstName": "Osbaldo",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1010.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "2caf64e4-c906-4924-978f-fb6c9140d1c6",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 78051,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T14:34:59.932Z",
+        "updated_at": "2023-09-22T05:59:36.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1dfabd5-129e-49bd-ac11-92dfaa3a19a5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 75642,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-23T04:51:10.720Z",
+        "updated_at": "2023-09-22T23:50:05.083Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6c65358-a30c-4794-b7f7-3889b1c5e8bd",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 42597,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T20:53:19.715Z",
+        "updated_at": "2023-09-22T19:25:32.458Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1980c729-ad88-463b-88d6-0c2e8b8812d3",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 29578,
+        "color": "White",
+        "license_plate": "GHI987",
+        "created_at": "2023-09-23T02:14:23.820Z",
+        "updated_at": "2023-09-22T05:30:53.477Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "565cc567-fa66-490e-93f3-770748504d45",
+        "make": "BMW",
+        "model": "X5",
+        "year": 17751,
+        "color": "Silver",
+        "license_plate": "JKL321",
+        "created_at": "2023-09-22T10:44:14.629Z",
+        "updated_at": "2023-09-23T01:14:27.857Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "2bdd1f9f-d826-4809-a6e8-ba7cf1eddb3e",
+        "service_type": "Plumbing",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-22T12:28:16.512Z",
+        "updated_at": "2023-09-22T05:47:14.741Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "565cc567-fa66-490e-93f3-770748504d45"
+      },
+      {
+        "id": "aae56659-66f1-4eb5-8691-79c845f13019",
+        "service_type": "Electrical",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-22T19:38:55.456Z",
+        "updated_at": "2023-09-22T16:37:04.229Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "a6c65358-a30c-4794-b7f7-3889b1c5e8bd"
+      },
+      {
+        "id": "221512f8-d2ba-4b85-872a-74d3b4ab1abd",
+        "service_type": "Painting",
+        "location": "789 Oak Ave",
+        "status": "Completed",
+        "created_at": "2023-09-22T12:05:26.250Z",
+        "updated_at": "2023-09-22T11:07:04.030Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "1980c729-ad88-463b-88d6-0c2e8b8812d3"
+      },
+      {
+        "id": "e0c31252-23f5-4132-8591-01f7f27dca0b",
+        "service_type": "Carpentry",
+        "location": "321 Pine Rd",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T07:33:14.533Z",
+        "updated_at": "2023-09-22T10:09:08.886Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "565cc567-fa66-490e-93f3-770748504d45"
+      },
+      {
+        "id": "2a482986-1335-4b04-81e3-210444cf7cc5",
+        "service_type": "Cleaning",
+        "location": "654 Maple Blvd",
+        "status": "On Hold",
+        "created_at": "2023-09-22T10:08:39.563Z",
+        "updated_at": "2023-09-23T00:38:06.736Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "d1dfabd5-129e-49bd-ac11-92dfaa3a19a5"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "af2f16ac-fc36-4c62-94b1-062a3a65516e",
+        "start_time": "2023-09-23T01:42:47.847Z",
+        "end_time": "2023-09-23T03:48:30.564Z",
+        "created_at": "2023-09-23T01:28:45.587Z",
+        "updated_at": "2023-09-22T10:07:07.093Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "e0c31252-23f5-4132-8591-01f7f27dca0b"
+      },
+      {
+        "id": "555b79c0-47d9-4958-90cc-66b53a7b1036",
+        "start_time": "2023-09-23T01:50:45.176Z",
+        "end_time": "2023-09-22T09:46:18.450Z",
+        "created_at": "2023-09-22T15:00:47.560Z",
+        "updated_at": "2023-09-23T03:58:28.935Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "aae56659-66f1-4eb5-8691-79c845f13019"
+      },
+      {
+        "id": "eb17ce81-fdfd-4e55-8c4f-d2df868378a0",
+        "start_time": "2023-09-23T00:45:24.965Z",
+        "end_time": "2023-09-22T19:41:50.721Z",
+        "created_at": "2023-09-22T16:36:03.590Z",
+        "updated_at": "2023-09-23T01:03:12.058Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "aae56659-66f1-4eb5-8691-79c845f13019"
+      },
+      {
+        "id": "3242cf7f-a389-46b8-946d-94eefb46da0b",
+        "start_time": "2023-09-22T18:10:47.898Z",
+        "end_time": "2023-09-22T16:39:20.429Z",
+        "created_at": "2023-09-23T01:57:11.439Z",
+        "updated_at": "2023-09-23T04:37:29.525Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "221512f8-d2ba-4b85-872a-74d3b4ab1abd"
+      },
+      {
+        "id": "ce0cfe8e-a991-474a-9fcc-ff91f8dd5a98",
+        "start_time": "2023-09-22T18:07:04.180Z",
+        "end_time": "2023-09-22T23:39:08.510Z",
+        "created_at": "2023-09-22T07:21:04.524Z",
+        "updated_at": "2023-09-22T07:26:18.688Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "2bdd1f9f-d826-4809-a6e8-ba7cf1eddb3e"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "cdb103b0-8942-4c5c-b1fe-c5dd4bbf20ce",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T18:06:23.271Z",
+        "updated_at": "2023-09-22T09:41:47.659Z",
+        "service_request_id": "2a482986-1335-4b04-81e3-210444cf7cc5"
+      },
+      {
+        "id": "4987261f-311f-4bb1-83eb-38fb4f9e17ac",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T19:03:34.394Z",
+        "updated_at": "2023-09-22T13:17:56.181Z",
+        "service_request_id": "e0c31252-23f5-4132-8591-01f7f27dca0b"
+      },
+      {
+        "id": "46d6d44d-1ae4-4ea2-8e10-1548a7df8285",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-22T20:05:10.746Z",
+        "updated_at": "2023-09-22T10:54:13.755Z",
+        "service_request_id": "221512f8-d2ba-4b85-872a-74d3b4ab1abd"
+      },
+      {
+        "id": "607a7c02-89b7-4e7d-b7f5-ad96b2fb16b3",
+        "emergency_type": "Accident",
+        "status": "High Priority",
+        "created_at": "2023-09-22T08:41:21.176Z",
+        "updated_at": "2023-09-22T06:45:53.679Z",
+        "service_request_id": "2bdd1f9f-d826-4809-a6e8-ba7cf1eddb3e"
+      },
+      {
+        "id": "954ea47b-5001-4492-86ab-fc65a8afde6b",
+        "emergency_type": "Security",
+        "status": "Immediate",
+        "created_at": "2023-09-22T13:37:02.921Z",
+        "updated_at": "2023-09-22T09:36:41.995Z",
+        "service_request_id": "2bdd1f9f-d826-4809-a6e8-ba7cf1eddb3e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e12dd62b-2b53-4c70-807d-e6cc8942080f",
+        "email": "Jamar15@roq.tech",
+        "firstName": "Beulah",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/534.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a465986-508a-4314-b7ed-a9cb570775bd",
+        "email": "Burdette_Leffler16@roq.tech",
+        "firstName": "Katrine",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41884925",
+        "tenantId": null
+      },
+      {
+        "reference": "a6c41699-d92c-4a6b-ad5f-6e66e3a4f914",
+        "email": "Amari98@roq.tech",
+        "firstName": "Tracey",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/950.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a87801a6-9d94-443c-8188-fd8fe96f0422",
+        "email": "Reggie76@roq.tech",
+        "firstName": "Gunner",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51c47805-8895-4038-91d5-81b8a007a8f0",
+        "email": "Noelia34@roq.tech",
+        "firstName": "Delphia",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36230649",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "fd8ab0b8-6a65-4302-9833-19ab95eff70f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 67510,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T11:19:47.372Z",
+        "updated_at": "2023-09-23T01:08:22.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0332e06-0279-47d3-af62-3c67100e1838",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 75831,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T06:44:36.350Z",
+        "updated_at": "2023-09-22T13:51:11.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fcf06f7-0cf7-4c5f-a4f4-6ee6165519d1",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 18435,
+        "color": "Green",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-22T06:23:54.203Z",
+        "updated_at": "2023-09-22T12:40:19.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ca51511-7076-4439-ac09-bacb96768564",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 8538,
+        "color": "Black",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T20:51:44.908Z",
+        "updated_at": "2023-09-23T02:18:05.401Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1453fe08-2382-4a02-b079-7ee2d21c1b1b",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 30260,
+        "color": "White",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T18:11:10.101Z",
+        "updated_at": "2023-09-23T00:22:41.695Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "fd9933cd-bb3a-45bc-99ab-9b3c5d5dd3a9",
+        "service_type": "Plumbing",
+        "location": "New York",
+        "status": "Pending",
+        "created_at": "2023-09-22T13:57:57.516Z",
+        "updated_at": "2023-09-23T04:03:42.093Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "c0332e06-0279-47d3-af62-3c67100e1838"
+      },
+      {
+        "id": "94d52dfc-a397-47eb-9488-08967018f4b0",
+        "service_type": "Electrical",
+        "location": "Los Angeles",
+        "status": "In Progress",
+        "created_at": "2023-09-22T15:03:12.230Z",
+        "updated_at": "2023-09-22T21:18:45.853Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4ca51511-7076-4439-ac09-bacb96768564"
+      },
+      {
+        "id": "438b5762-4525-4d7f-b8a1-ab392535f110",
+        "service_type": "Roofing",
+        "location": "Chicago",
+        "status": "Completed",
+        "created_at": "2023-09-22T18:09:12.287Z",
+        "updated_at": "2023-09-22T07:59:12.153Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "3fcf06f7-0cf7-4c5f-a4f4-6ee6165519d1"
+      },
+      {
+        "id": "abeed40c-5a26-42c9-99c7-4a1a28232c23",
+        "service_type": "Painting",
+        "location": "Houston",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T08:29:27.082Z",
+        "updated_at": "2023-09-22T08:44:14.442Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "1453fe08-2382-4a02-b079-7ee2d21c1b1b"
+      },
+      {
+        "id": "c94a265a-f0fb-4c4e-9e11-db6235680518",
+        "service_type": "Carpentry",
+        "location": "Miami",
+        "status": "On Hold",
+        "created_at": "2023-09-22T14:35:29.484Z",
+        "updated_at": "2023-09-23T04:38:57.137Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "3fcf06f7-0cf7-4c5f-a4f4-6ee6165519d1"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "554a4e49-44f9-4cd2-b731-0dcf0bd3d052",
+        "start_time": "2023-09-22T18:14:07.770Z",
+        "end_time": "2023-09-22T20:10:35.504Z",
+        "created_at": "2023-09-22T11:06:13.752Z",
+        "updated_at": "2023-09-22T17:52:36.765Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "fd9933cd-bb3a-45bc-99ab-9b3c5d5dd3a9"
+      },
+      {
+        "id": "20a9c5d6-2573-4f4f-8a65-f85ee9706244",
+        "start_time": "2023-09-23T03:05:11.828Z",
+        "end_time": "2023-09-22T22:26:44.411Z",
+        "created_at": "2023-09-22T21:17:42.328Z",
+        "updated_at": "2023-09-23T04:55:08.197Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "fd9933cd-bb3a-45bc-99ab-9b3c5d5dd3a9"
+      },
+      {
+        "id": "8edc3d0d-914a-477c-8f59-c9ad7b0b0e8b",
+        "start_time": "2023-09-23T00:55:39.759Z",
+        "end_time": "2023-09-22T05:38:28.235Z",
+        "created_at": "2023-09-22T13:14:17.078Z",
+        "updated_at": "2023-09-22T13:24:27.118Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "94d52dfc-a397-47eb-9488-08967018f4b0"
+      },
+      {
+        "id": "5735fa3a-352d-45a7-8546-c9121990a54c",
+        "start_time": "2023-09-23T01:21:10.331Z",
+        "end_time": "2023-09-22T09:34:44.312Z",
+        "created_at": "2023-09-22T18:14:24.794Z",
+        "updated_at": "2023-09-22T11:42:20.242Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "fd9933cd-bb3a-45bc-99ab-9b3c5d5dd3a9"
+      },
+      {
+        "id": "eb32c96f-b68c-49f3-8793-1317ffa60adf",
+        "start_time": "2023-09-22T23:24:35.245Z",
+        "end_time": "2023-09-22T19:42:12.085Z",
+        "created_at": "2023-09-22T22:59:24.590Z",
+        "updated_at": "2023-09-23T00:28:33.796Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "fd9933cd-bb3a-45bc-99ab-9b3c5d5dd3a9"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "5e7530de-56a7-4783-a34e-a5733e4a0230",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T18:03:08.577Z",
+        "updated_at": "2023-09-22T19:05:15.343Z",
+        "service_request_id": "94d52dfc-a397-47eb-9488-08967018f4b0"
+      },
+      {
+        "id": "9556ba38-a586-4ae7-8500-b42f1740b04e",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T23:46:35.553Z",
+        "updated_at": "2023-09-22T12:44:14.831Z",
+        "service_request_id": "c94a265a-f0fb-4c4e-9e11-db6235680518"
+      },
+      {
+        "id": "07e5b25c-7b23-46ad-ad3a-dd12e19c9910",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-22T09:07:07.824Z",
+        "updated_at": "2023-09-22T13:27:19.141Z",
+        "service_request_id": "94d52dfc-a397-47eb-9488-08967018f4b0"
+      },
+      {
+        "id": "ad2cf89c-4621-4185-8eac-65c7b87e30a3",
+        "emergency_type": "Accident",
+        "status": "High Priority",
+        "created_at": "2023-09-23T00:29:35.819Z",
+        "updated_at": "2023-09-22T18:40:57.432Z",
+        "service_request_id": "abeed40c-5a26-42c9-99c7-4a1a28232c23"
+      },
+      {
+        "id": "028f79c2-d02f-4f62-9164-f0bb2b6d956f",
+        "emergency_type": "Security",
+        "status": "Immediate",
+        "created_at": "2023-09-22T08:36:28.254Z",
+        "updated_at": "2023-09-22T23:19:11.929Z",
+        "service_request_id": "94d52dfc-a397-47eb-9488-08967018f4b0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "24ee6588-4206-436f-9cce-3aa6336b9c2c",
+        "email": "Letha.Bruen36@roq.tech",
+        "firstName": "Easter",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/149.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8eb5dac-7e85-48f3-976f-7ec6bf8388d6",
+        "email": "Mina_Bradtke76@roq.tech",
+        "firstName": "Winfield",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57896854",
+        "tenantId": null
+      },
+      {
+        "reference": "fb3f82d1-85b6-4e3b-9fcf-adb5427d13fd",
+        "email": "Coby94@roq.tech",
+        "firstName": "Trudie",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24283878",
+        "tenantId": null
+      },
+      {
+        "reference": "870b2eaf-8b7c-401f-b7e1-bc54831e6565",
+        "email": "Kirstin_Hermann@roq.tech",
+        "firstName": "Mark",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99192156",
+        "tenantId": null
+      },
+      {
+        "reference": "273a8be0-890d-45c4-bfb8-4135b80751e6",
+        "email": "Russell_Ruecker@roq.tech",
+        "firstName": "Brandon",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48016754",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "32cb6a17-f9c8-43dd-9d98-dd8ab8371a55",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 68717,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T16:14:08.342Z",
+        "updated_at": "2023-09-22T19:17:35.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f42dc0f0-a40d-4fdc-b5a3-6f71fa447a80",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 52327,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-09-22T10:59:54.625Z",
+        "updated_at": "2023-09-22T08:17:16.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2124ef27-3a02-4dc3-9dbc-ae0727990afc",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 49807,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T14:09:39.718Z",
+        "updated_at": "2023-09-23T00:36:52.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e171872-8b63-4320-aad3-4d836f297af0",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 63080,
+        "color": "White",
+        "license_plate": "GHI987",
+        "created_at": "2023-09-22T05:09:44.908Z",
+        "updated_at": "2023-09-22T23:14:21.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42312283-d834-413a-a3ea-4c4dce8a1884",
+        "make": "BMW",
+        "model": "X5",
+        "year": 6877,
+        "color": "Silver",
+        "license_plate": "JKL321",
+        "created_at": "2023-09-22T23:23:05.632Z",
+        "updated_at": "2023-09-22T21:05:26.881Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "888d6bc1-2f85-43e5-958f-f9391bbc6e43",
+        "service_type": "Oil change",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-23T04:56:07.994Z",
+        "updated_at": "2023-09-22T14:14:34.889Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "32cb6a17-f9c8-43dd-9d98-dd8ab8371a55"
+      },
+      {
+        "id": "cabb7d1f-8669-49d8-ac61-cb8f3ab975db",
+        "service_type": "Tire rotation",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-23T00:59:43.645Z",
+        "updated_at": "2023-09-22T14:04:33.036Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "2124ef27-3a02-4dc3-9dbc-ae0727990afc"
+      },
+      {
+        "id": "cf8a8290-180b-454b-9fa2-5611d1884236",
+        "service_type": "Brake repair",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-22T07:51:52.753Z",
+        "updated_at": "2023-09-22T20:09:18.555Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "2e171872-8b63-4320-aad3-4d836f297af0"
+      },
+      {
+        "id": "c2db91ff-9e50-4414-9342-835ae545d47a",
+        "service_type": "Battery replacement",
+        "location": "321 Pine St",
+        "status": "Cancelled",
+        "created_at": "2023-09-23T03:44:33.572Z",
+        "updated_at": "2023-09-22T10:15:34.748Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "32cb6a17-f9c8-43dd-9d98-dd8ab8371a55"
+      },
+      {
+        "id": "d88efd18-66c4-4ad1-b154-0b242f2bd231",
+        "service_type": "Engine diagnostics",
+        "location": "654 Maple St",
+        "status": "On Hold",
+        "created_at": "2023-09-23T03:45:07.499Z",
+        "updated_at": "2023-09-22T09:55:17.818Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "2124ef27-3a02-4dc3-9dbc-ae0727990afc"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "5d79006c-0002-4260-b77a-79cff772774b",
+        "start_time": "2023-09-22T12:06:28.509Z",
+        "end_time": "2023-09-22T21:31:26.314Z",
+        "created_at": "2023-09-22T05:48:06.280Z",
+        "updated_at": "2023-09-22T17:17:41.393Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "888d6bc1-2f85-43e5-958f-f9391bbc6e43"
+      },
+      {
+        "id": "51893fcd-f209-479f-b789-968726b7e846",
+        "start_time": "2023-09-23T02:59:26.117Z",
+        "end_time": "2023-09-22T07:28:20.671Z",
+        "created_at": "2023-09-22T07:31:57.067Z",
+        "updated_at": "2023-09-22T05:36:33.131Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "cabb7d1f-8669-49d8-ac61-cb8f3ab975db"
+      },
+      {
+        "id": "5ac6a289-9398-45b1-bf86-96bb92e57cdd",
+        "start_time": "2023-09-22T20:42:53.517Z",
+        "end_time": "2023-09-22T19:13:51.891Z",
+        "created_at": "2023-09-22T15:53:58.447Z",
+        "updated_at": "2023-09-22T15:18:31.236Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "d88efd18-66c4-4ad1-b154-0b242f2bd231"
+      },
+      {
+        "id": "4423fb0f-62fa-437a-b7f6-49bdeb0e4cd5",
+        "start_time": "2023-09-22T23:47:18.150Z",
+        "end_time": "2023-09-23T00:53:17.672Z",
+        "created_at": "2023-09-22T11:14:29.957Z",
+        "updated_at": "2023-09-22T05:37:40.982Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "cf8a8290-180b-454b-9fa2-5611d1884236"
+      },
+      {
+        "id": "122597f4-d062-41bd-afd9-21dba30f34d0",
+        "start_time": "2023-09-22T22:45:46.081Z",
+        "end_time": "2023-09-22T17:44:09.625Z",
+        "created_at": "2023-09-22T17:48:04.418Z",
+        "updated_at": "2023-09-22T10:55:36.353Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "cabb7d1f-8669-49d8-ac61-cb8f3ab975db"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "138a70b0-e711-482c-b889-dcf0723223fa",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T09:23:01.362Z",
+        "updated_at": "2023-09-23T03:37:53.068Z",
+        "service_request_id": "cabb7d1f-8669-49d8-ac61-cb8f3ab975db"
+      },
+      {
+        "id": "243399ce-2d5f-4003-86ad-8a4b5a1bd910",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T09:50:59.900Z",
+        "updated_at": "2023-09-22T05:57:12.280Z",
+        "service_request_id": "c2db91ff-9e50-4414-9342-835ae545d47a"
+      },
+      {
+        "id": "70c9b2d1-dd98-4fd5-a95b-3763bf0a1880",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-22T21:38:31.961Z",
+        "updated_at": "2023-09-22T12:26:35.580Z",
+        "service_request_id": "cf8a8290-180b-454b-9fa2-5611d1884236"
+      },
+      {
+        "id": "164fb3b0-8cca-4bc2-a6af-5cadc3a4c0a3",
+        "emergency_type": "Accident",
+        "status": "Non-Emergency",
+        "created_at": "2023-09-22T10:57:57.423Z",
+        "updated_at": "2023-09-22T08:34:41.799Z",
+        "service_request_id": "d88efd18-66c4-4ad1-b154-0b242f2bd231"
+      },
+      {
+        "id": "d21b9b4a-e519-4026-a007-0a5e518e5daa",
+        "emergency_type": "Crime",
+        "status": "Resolved",
+        "created_at": "2023-09-22T11:04:28.647Z",
+        "updated_at": "2023-09-23T00:26:18.495Z",
+        "service_request_id": "888d6bc1-2f85-43e5-958f-f9391bbc6e43"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a317ab3-07cb-495a-9d80-955f48ddc375",
+        "email": "Isabell79@roq.tech",
+        "firstName": "Arnoldo",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67739135",
+        "tenantId": null
+      },
+      {
+        "reference": "631ccc9e-bb31-49ad-b0e1-e8a2167e9061",
+        "email": "Larue47@roq.tech",
+        "firstName": "Russel",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70253495",
+        "tenantId": null
+      },
+      {
+        "reference": "6b6171f3-f775-4f5e-a8aa-b91cc3bc2e0a",
+        "email": "Rhianna_Reilly@roq.tech",
+        "firstName": "Jennifer",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63465329",
+        "tenantId": null
+      },
+      {
+        "reference": "27b0e727-8d7f-4da3-a34f-289e4b5dcc6d",
+        "email": "Gabriel70@roq.tech",
+        "firstName": "Ashlynn",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83189058",
+        "tenantId": null
+      },
+      {
+        "reference": "71101f52-1f06-435c-928b-d9e76132d95a",
+        "email": "Trever60@roq.tech",
+        "firstName": "Estefania",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/285.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "07366929-0dc4-4013-a0d9-9db22f1cff62",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 64343,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-23T00:45:49.200Z",
+        "updated_at": "2023-09-22T10:07:18.711Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f5ad641-dddc-4450-af43-f19e9b1505e5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 71483,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T08:01:22.366Z",
+        "updated_at": "2023-09-22T18:52:29.787Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19090406-e377-483f-9a09-777c2ed126a6",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 72392,
+        "color": "Green",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-23T00:48:20.137Z",
+        "updated_at": "2023-09-23T05:04:26.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d6041e5-30a8-4ec8-ba4d-307acf0234c3",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 65482,
+        "color": "Black",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T17:13:35.534Z",
+        "updated_at": "2023-09-22T19:23:42.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b475179-1b44-487f-931a-a1b80a56d89e",
+        "make": "BMW",
+        "model": "X5",
+        "year": 39097,
+        "color": "White",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T14:06:39.650Z",
+        "updated_at": "2023-09-23T02:00:26.946Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "1ed05587-0b61-434a-8ad7-c6e69dbcc760",
+        "service_type": "Oil Change",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-22T23:19:43.790Z",
+        "updated_at": "2023-09-22T23:17:17.966Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "1f5ad641-dddc-4450-af43-f19e9b1505e5"
+      },
+      {
+        "id": "2c31a0f3-1271-4582-a89a-a08299ddc6c1",
+        "service_type": "Tire Rotation",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-22T18:12:01.130Z",
+        "updated_at": "2023-09-22T09:10:12.792Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "0b475179-1b44-487f-931a-a1b80a56d89e"
+      },
+      {
+        "id": "f74599b7-9591-44b8-9e61-8d9db7514fa9",
+        "service_type": "Brake Repair",
+        "location": "789 Oak Ave",
+        "status": "Completed",
+        "created_at": "2023-09-22T21:08:45.793Z",
+        "updated_at": "2023-09-22T10:30:23.093Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "07366929-0dc4-4013-a0d9-9db22f1cff62"
+      },
+      {
+        "id": "afb89c70-4d8e-4fa5-84b1-cfb0d17fedc3",
+        "service_type": "Battery Replacement",
+        "location": "321 Pine Rd",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T22:33:02.992Z",
+        "updated_at": "2023-09-22T13:38:40.415Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "07366929-0dc4-4013-a0d9-9db22f1cff62"
+      },
+      {
+        "id": "356c3018-af84-482e-a648-8889043acfb0",
+        "service_type": "Engine Tune-Up",
+        "location": "654 Maple Ln",
+        "status": "On Hold",
+        "created_at": "2023-09-22T08:19:29.595Z",
+        "updated_at": "2023-09-22T21:50:04.826Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "19090406-e377-483f-9a09-777c2ed126a6"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "f05d3b69-857c-49b1-aad5-3b9d8d295fce",
+        "start_time": "2023-09-22T10:05:38.445Z",
+        "end_time": "2023-09-23T03:17:40.732Z",
+        "created_at": "2023-09-22T11:58:15.492Z",
+        "updated_at": "2023-09-22T15:54:33.694Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "356c3018-af84-482e-a648-8889043acfb0"
+      },
+      {
+        "id": "4de7c7d0-e44d-4746-857f-52a4c31a2cc2",
+        "start_time": "2023-09-22T13:09:06.912Z",
+        "end_time": "2023-09-22T21:26:10.763Z",
+        "created_at": "2023-09-22T12:32:49.675Z",
+        "updated_at": "2023-09-22T17:05:55.301Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "356c3018-af84-482e-a648-8889043acfb0"
+      },
+      {
+        "id": "1826a4ca-1bc3-4b2b-9a28-107c3f134105",
+        "start_time": "2023-09-22T08:02:57.905Z",
+        "end_time": "2023-09-23T01:22:24.976Z",
+        "created_at": "2023-09-22T17:48:37.340Z",
+        "updated_at": "2023-09-22T20:40:08.120Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "afb89c70-4d8e-4fa5-84b1-cfb0d17fedc3"
+      },
+      {
+        "id": "075e085d-a6d1-4083-9138-44cb75eea8f5",
+        "start_time": "2023-09-22T21:10:28.001Z",
+        "end_time": "2023-09-22T06:22:09.247Z",
+        "created_at": "2023-09-22T14:40:55.433Z",
+        "updated_at": "2023-09-22T22:40:27.796Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "f74599b7-9591-44b8-9e61-8d9db7514fa9"
+      },
+      {
+        "id": "ae9a9fcf-e52e-4b72-8887-857dd57cf422",
+        "start_time": "2023-09-22T07:36:29.702Z",
+        "end_time": "2023-09-22T16:20:21.690Z",
+        "created_at": "2023-09-22T09:47:14.921Z",
+        "updated_at": "2023-09-22T22:30:10.307Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "f74599b7-9591-44b8-9e61-8d9db7514fa9"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "17306ec4-070c-46db-905d-0caf6f6395af",
+        "emergency_type": "Fire",
+        "status": "Active",
+        "created_at": "2023-09-22T08:27:10.684Z",
+        "updated_at": "2023-09-22T20:44:39.347Z",
+        "service_request_id": "afb89c70-4d8e-4fa5-84b1-cfb0d17fedc3"
+      },
+      {
+        "id": "b600e043-844e-4cb3-9739-852f67d3f79f",
+        "emergency_type": "Medical",
+        "status": "Resolved",
+        "created_at": "2023-09-22T19:06:33.533Z",
+        "updated_at": "2023-09-22T08:41:21.565Z",
+        "service_request_id": "2c31a0f3-1271-4582-a89a-a08299ddc6c1"
+      },
+      {
+        "id": "08c6a6a8-f7e0-49ce-9d2d-7389d138b40c",
+        "emergency_type": "Natural Disaster",
+        "status": "Ongoing",
+        "created_at": "2023-09-22T15:11:56.453Z",
+        "updated_at": "2023-09-22T19:07:51.116Z",
+        "service_request_id": "1ed05587-0b61-434a-8ad7-c6e69dbcc760"
+      },
+      {
+        "id": "cd7daf9c-9f7e-4c7a-9b9b-e581d7549ee6",
+        "emergency_type": "Accident",
+        "status": "Closed",
+        "created_at": "2023-09-22T14:19:57.646Z",
+        "updated_at": "2023-09-23T04:00:36.806Z",
+        "service_request_id": "356c3018-af84-482e-a648-8889043acfb0"
+      },
+      {
+        "id": "4dae5f62-88d1-42a4-9890-76caeeeb3f71",
+        "emergency_type": "Security Threat",
+        "status": "Under Investigation",
+        "created_at": "2023-09-22T06:33:34.142Z",
+        "updated_at": "2023-09-22T22:44:53.392Z",
+        "service_request_id": "2c31a0f3-1271-4582-a89a-a08299ddc6c1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e8359a75-bc83-4ad5-b5a8-2b8775f61822",
+        "email": "Jacey_Kris@roq.tech",
+        "firstName": "Ivah",
+        "lastName": "Schiller-Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/979.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da168adc-e5bb-461b-844d-0ee84e83411f",
+        "email": "Mercedes.Jones@roq.tech",
+        "firstName": "Tommie",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0afdb7e-6726-4376-84c0-ef24eec4cbea",
+        "email": "Andre_Wiegand47@roq.tech",
+        "firstName": "Russ",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32054179",
+        "tenantId": null
+      },
+      {
+        "reference": "5c3d0f02-809d-4af9-bee4-71c57314370a",
+        "email": "Webster_Rau@roq.tech",
+        "firstName": "Annie",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d909359-5024-4759-aea2-600be0dbb832",
+        "email": "Wilburn.Von30@roq.tech",
+        "firstName": "Orie",
+        "lastName": "Treutel-Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99879123",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "6b4511f1-f3ef-43ad-952d-95673cf83d8e",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 49804,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-23T00:20:30.540Z",
+        "updated_at": "2023-09-22T13:41:48.566Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46bfd2a4-78be-4c90-89ed-65a55880f35c",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 14900,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-22T18:44:59.563Z",
+        "updated_at": "2023-09-22T15:01:18.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c27ff34-3504-4a65-8e8c-492b14e836e1",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 47879,
+        "color": "Black",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-22T20:16:45.319Z",
+        "updated_at": "2023-09-23T02:52:37.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa5e5e06-b35b-420b-b123-2a413b402d61",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 94721,
+        "color": "White",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T23:42:24.749Z",
+        "updated_at": "2023-09-22T08:50:21.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21ecaad6-e557-4026-be44-88d23bb1b8a2",
+        "make": "BMW",
+        "model": "X5",
+        "year": 976,
+        "color": "Silver",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T11:11:33.394Z",
+        "updated_at": "2023-09-23T00:19:40.706Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "9f422f6c-f224-4175-a7ce-2de0f578ef15",
+        "service_type": "Oil Change",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-23T00:55:57.442Z",
+        "updated_at": "2023-09-22T15:08:20.031Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "fa5e5e06-b35b-420b-b123-2a413b402d61"
+      },
+      {
+        "id": "6021021d-cacb-41dc-8987-be14c8acc0ef",
+        "service_type": "Tire Rotation",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-23T00:37:36.194Z",
+        "updated_at": "2023-09-22T16:46:47.111Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "6b4511f1-f3ef-43ad-952d-95673cf83d8e"
+      },
+      {
+        "id": "e0c100bb-609c-4035-aaaf-1b4f3c979417",
+        "service_type": "Brake Repair",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-22T06:51:10.503Z",
+        "updated_at": "2023-09-23T01:41:15.556Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "46bfd2a4-78be-4c90-89ed-65a55880f35c"
+      },
+      {
+        "id": "26c4628f-43f3-4171-b180-c7fb8f3158d0",
+        "service_type": "Engine Tune-up",
+        "location": "101 Maple St",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T12:21:34.756Z",
+        "updated_at": "2023-09-22T12:35:18.727Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4c27ff34-3504-4a65-8e8c-492b14e836e1"
+      },
+      {
+        "id": "20279212-8fa4-48e3-ae81-e9262a25c393",
+        "service_type": "Battery Replacement",
+        "location": "202 Pine St",
+        "status": "On Hold",
+        "created_at": "2023-09-22T20:15:49.365Z",
+        "updated_at": "2023-09-22T21:19:46.104Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "6b4511f1-f3ef-43ad-952d-95673cf83d8e"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "413c8a3d-5ca7-4f01-bc0e-3679252ca158",
+        "start_time": "2023-09-23T01:05:24.409Z",
+        "end_time": "2023-09-23T00:52:32.151Z",
+        "created_at": "2023-09-23T01:25:04.697Z",
+        "updated_at": "2023-09-22T08:43:05.135Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "26c4628f-43f3-4171-b180-c7fb8f3158d0"
+      },
+      {
+        "id": "79332391-3ccd-4aa0-abc5-8b834b30b7c4",
+        "start_time": "2023-09-22T21:54:02.536Z",
+        "end_time": "2023-09-22T16:14:26.399Z",
+        "created_at": "2023-09-22T23:16:42.153Z",
+        "updated_at": "2023-09-23T00:47:49.863Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "20279212-8fa4-48e3-ae81-e9262a25c393"
+      },
+      {
+        "id": "2138b463-7202-4b83-a814-ce56e5ab69c3",
+        "start_time": "2023-09-22T14:57:27.503Z",
+        "end_time": "2023-09-22T11:04:35.510Z",
+        "created_at": "2023-09-23T01:26:15.265Z",
+        "updated_at": "2023-09-23T03:37:45.475Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "20279212-8fa4-48e3-ae81-e9262a25c393"
+      },
+      {
+        "id": "d24f9a62-1f5f-43ec-b2ed-090303aa2633",
+        "start_time": "2023-09-23T02:42:57.371Z",
+        "end_time": "2023-09-22T10:44:21.873Z",
+        "created_at": "2023-09-23T05:04:53.382Z",
+        "updated_at": "2023-09-22T11:39:09.902Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "20279212-8fa4-48e3-ae81-e9262a25c393"
+      },
+      {
+        "id": "b070aaa0-2c1d-49ad-aa31-48a1fc2b89c4",
+        "start_time": "2023-09-22T05:13:59.012Z",
+        "end_time": "2023-09-22T08:52:56.244Z",
+        "created_at": "2023-09-23T02:46:00.526Z",
+        "updated_at": "2023-09-22T13:53:07.509Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "9f422f6c-f224-4175-a7ce-2de0f578ef15"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "6a67c4b6-d2fa-4e9c-bea6-78e70b8348e7",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T12:37:13.613Z",
+        "updated_at": "2023-09-22T05:47:13.452Z",
+        "service_request_id": "e0c100bb-609c-4035-aaaf-1b4f3c979417"
+      },
+      {
+        "id": "9a6cd497-f720-441a-8c57-dc2d8b6afe75",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T18:21:14.246Z",
+        "updated_at": "2023-09-22T20:12:59.751Z",
+        "service_request_id": "e0c100bb-609c-4035-aaaf-1b4f3c979417"
+      },
+      {
+        "id": "599a76c4-4c0b-4b50-8cb3-176270762861",
+        "emergency_type": "Natural Disaster",
+        "status": "Critical",
+        "created_at": "2023-09-22T15:30:37.261Z",
+        "updated_at": "2023-09-22T13:25:21.524Z",
+        "service_request_id": "6021021d-cacb-41dc-8987-be14c8acc0ef"
+      },
+      {
+        "id": "6a16aabf-34e6-4dd3-bddb-da54c3658d78",
+        "emergency_type": "Accident",
+        "status": "High Priority",
+        "created_at": "2023-09-22T08:00:47.190Z",
+        "updated_at": "2023-09-22T11:10:41.507Z",
+        "service_request_id": "26c4628f-43f3-4171-b180-c7fb8f3158d0"
+      },
+      {
+        "id": "9fb37e10-b429-48d5-a575-b1ec091c2279",
+        "emergency_type": "Crime",
+        "status": "Low Priority",
+        "created_at": "2023-09-22T19:27:24.468Z",
+        "updated_at": "2023-09-22T14:54:53.808Z",
+        "service_request_id": "20279212-8fa4-48e3-ae81-e9262a25c393"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5845f572-0c3a-43ce-bc4c-a6f542dd0a3e",
+        "email": "Alexandra.Kilback-Harber49@roq.tech",
+        "firstName": "Destany",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98d1078f-9173-4b2e-8f1d-3b67452ad980",
+        "email": "Betsy.Wilderman-Leannon@roq.tech",
+        "firstName": "Elna",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/66.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4cb655dc-4035-4018-bfac-36bbad9ada27",
+        "email": "Santina_Runolfsson@roq.tech",
+        "firstName": "Rodger",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "934c18dc-81e7-4f30-80ad-d3ffbcfb937e",
+        "email": "Craig_Heathcote@roq.tech",
+        "firstName": "Heloise",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13293358",
+        "tenantId": null
+      },
+      {
+        "reference": "1396cad4-e49e-40b0-a246-9535fe621ee6",
+        "email": "Hayden94@roq.tech",
+        "firstName": "Amara",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "97f35b8d-2dd1-4721-816b-1a311f64ee0b",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 70463,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-09-22T19:12:14.361Z",
+        "updated_at": "2023-09-22T05:35:06.280Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d39b4b1-5645-4dd0-8646-f0eff66ff951",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 18165,
+        "color": "Blue",
+        "license_plate": "DEF456",
+        "created_at": "2023-09-23T00:02:14.481Z",
+        "updated_at": "2023-09-22T18:56:32.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c574890-7245-4c7a-acf2-181ea2472e2a",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 89636,
+        "color": "Black",
+        "license_plate": "GHI789",
+        "created_at": "2023-09-22T07:57:27.492Z",
+        "updated_at": "2023-09-22T05:09:26.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e38b0b3-183d-476c-80f0-f992f24d163a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 42684,
+        "color": "White",
+        "license_plate": "JKL012",
+        "created_at": "2023-09-22T05:49:03.930Z",
+        "updated_at": "2023-09-23T02:19:03.328Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c8a63c5-bd4a-49af-a6c0-63b40a6e149a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 65279,
+        "color": "Silver",
+        "license_plate": "MNO345",
+        "created_at": "2023-09-22T15:13:07.252Z",
+        "updated_at": "2023-09-22T06:56:42.434Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_request": [
+      {
+        "id": "89319d51-0322-46b7-a7ab-e74e027e2ab7",
+        "service_type": "Oil Change",
+        "location": "123 Main St",
+        "status": "Pending",
+        "created_at": "2023-09-23T04:53:38.716Z",
+        "updated_at": "2023-09-22T09:12:44.001Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4e38b0b3-183d-476c-80f0-f992f24d163a"
+      },
+      {
+        "id": "cf1184af-e0a1-4250-82b3-0625b97fa71f",
+        "service_type": "Tire Rotation",
+        "location": "456 Elm St",
+        "status": "In Progress",
+        "created_at": "2023-09-22T14:31:37.156Z",
+        "updated_at": "2023-09-22T18:17:31.614Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "5c8a63c5-bd4a-49af-a6c0-63b40a6e149a"
+      },
+      {
+        "id": "bdcc0425-a90c-46df-8753-b7c9cef8545a",
+        "service_type": "Brake Repair",
+        "location": "789 Oak St",
+        "status": "Completed",
+        "created_at": "2023-09-22T10:00:59.865Z",
+        "updated_at": "2023-09-22T16:42:02.098Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4c574890-7245-4c7a-acf2-181ea2472e2a"
+      },
+      {
+        "id": "1013b377-2475-47fa-88a7-5236c91189ca",
+        "service_type": "Battery Replacement",
+        "location": "101 Maple St",
+        "status": "Cancelled",
+        "created_at": "2023-09-22T07:10:39.865Z",
+        "updated_at": "2023-09-22T12:03:41.970Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "4e38b0b3-183d-476c-80f0-f992f24d163a"
+      },
+      {
+        "id": "2e58df3f-242d-4ffc-9b0a-b00157b2d57e",
+        "service_type": "Engine Tune-Up",
+        "location": "202 Pine St",
+        "status": "On Hold",
+        "created_at": "2023-09-22T07:36:16.728Z",
+        "updated_at": "2023-09-22T10:19:11.453Z",
+        "provider_id": "main_entity_pk",
+        "vehicle_id": "9d39b4b1-5645-4dd0-8646-f0eff66ff951"
+      }
+    ],
+    "service_history": [
+      {
+        "id": "a957c8a4-6fa3-4a6c-bb71-602c4ec30ea3",
+        "start_time": "2023-09-22T10:10:44.535Z",
+        "end_time": "2023-09-22T16:45:07.711Z",
+        "created_at": "2023-09-22T13:31:40.320Z",
+        "updated_at": "2023-09-22T14:04:44.282Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "cf1184af-e0a1-4250-82b3-0625b97fa71f"
+      },
+      {
+        "id": "c9bf9d9a-2ef2-4ff0-9475-0b43e5bd82c1",
+        "start_time": "2023-09-22T19:51:56.332Z",
+        "end_time": "2023-09-22T17:24:03.119Z",
+        "created_at": "2023-09-23T04:38:11.422Z",
+        "updated_at": "2023-09-22T17:34:34.586Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "2e58df3f-242d-4ffc-9b0a-b00157b2d57e"
+      },
+      {
+        "id": "c3a712e8-8309-4d72-ba15-f883b56f7b91",
+        "start_time": "2023-09-22T12:06:06.133Z",
+        "end_time": "2023-09-22T09:19:47.300Z",
+        "created_at": "2023-09-22T15:24:29.251Z",
+        "updated_at": "2023-09-22T23:10:38.035Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "89319d51-0322-46b7-a7ab-e74e027e2ab7"
+      },
+      {
+        "id": "777ba0ed-e681-4b51-a3f2-6b2b0fdcde2c",
+        "start_time": "2023-09-22T06:51:48.774Z",
+        "end_time": "2023-09-22T05:08:47.645Z",
+        "created_at": "2023-09-22T18:48:53.898Z",
+        "updated_at": "2023-09-23T03:29:30.467Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "89319d51-0322-46b7-a7ab-e74e027e2ab7"
+      },
+      {
+        "id": "55e4e456-1e98-4770-8941-6b94844cb5a4",
+        "start_time": "2023-09-22T07:00:39.266Z",
+        "end_time": "2023-09-22T17:45:36.619Z",
+        "created_at": "2023-09-22T17:39:14.787Z",
+        "updated_at": "2023-09-23T01:17:35.853Z",
+        "provider_id": "main_entity_pk",
+        "service_request_id": "89319d51-0322-46b7-a7ab-e74e027e2ab7"
+      }
+    ],
+    "emergency": [
+      {
+        "id": "6d3a54fa-890c-48a8-bf36-1a31002017ae",
+        "emergency_type": "Fire",
+        "status": "Emergency",
+        "created_at": "2023-09-22T22:31:04.363Z",
+        "updated_at": "2023-09-22T15:25:49.055Z",
+        "service_request_id": "2e58df3f-242d-4ffc-9b0a-b00157b2d57e"
+      },
+      {
+        "id": "98a7874b-6edb-4d3d-b60b-7ec23095a323",
+        "emergency_type": "Medical",
+        "status": "Urgent",
+        "created_at": "2023-09-22T15:52:03.230Z",
+        "updated_at": "2023-09-23T01:36:05.352Z",
+        "service_request_id": "89319d51-0322-46b7-a7ab-e74e027e2ab7"
+      },
+      {
+        "id": "1a51e05e-4d05-4398-96bc-b61a48c2f0d3",
+        "emergency_type": "Police",
+        "status": "Critical",
+        "created_at": "2023-09-22T21:06:13.953Z",
+        "updated_at": "2023-09-22T22:52:22.373Z",
+        "service_request_id": "2e58df3f-242d-4ffc-9b0a-b00157b2d57e"
+      },
+      {
+        "id": "ebdb2ace-7551-4a65-933f-c359b0fd0b36",
+        "emergency_type": "Gas Leak",
+        "status": "High Priority",
+        "created_at": "2023-09-22T17:19:57.916Z",
+        "updated_at": "2023-09-22T07:29:31.713Z",
+        "service_request_id": "bdcc0425-a90c-46df-8753-b7c9cef8545a"
+      },
+      {
+        "id": "4e782892-0fe3-425b-a0f2-8bd2952da602",
+        "emergency_type": "Power Outage",
+        "status": "Low Priority",
+        "created_at": "2023-09-22T06:47:46.860Z",
+        "updated_at": "2023-09-22T06:04:18.025Z",
+        "service_request_id": "1013b377-2475-47fa-88a7-5236c91189ca"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78649834-6cb5-40da-9cac-392f82a5d7ad",
+        "email": "Oliver_Mills@roq.tech",
+        "firstName": "Tia",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29891038",
+        "tenantId": null
+      },
+      {
+        "reference": "1a6e7be1-dba4-454f-9020-e9051e6a078a",
+        "email": "Diamond.Swaniawski57@roq.tech",
+        "firstName": "Maud",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45945035",
+        "tenantId": null
+      },
+      {
+        "reference": "1b4280a8-3b9b-42f3-bd71-103295c73195",
+        "email": "Otho_Beahan20@roq.tech",
+        "firstName": "Juana",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2f2f2ba-5cb1-482a-8359-69ad7d547792",
+        "email": "Cathy31@roq.tech",
+        "firstName": "Schuyler",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0f2506ae-56fc-4b32-9504-3cf358709029",
+        "email": "Tristin99@roq.tech",
+        "firstName": "Josefina",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86382124",
+        "tenantId": null
+      }
+    ]
+  }
+]
